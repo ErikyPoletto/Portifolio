@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(18, 17, 18);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* -------------botao-voltar--------- */
+.container_voltar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.botao_voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(235, 218, 160);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.botao_voltar:hover{
+    background-color: rgb(235, 218, 160);
+    color: rgb(0, 0, 0);
+}
