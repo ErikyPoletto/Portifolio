@@ -17,7 +17,7 @@
     color: rgb(235, 218, 160);
 }
 
-.accordion{
+.opcoes{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@
     margin-bottom: 4rem;
 }
 
-.tab{
+.opcao_rede{
     display: inline-block;
     background-color: black;
     border-right: #000000 1px solid;
@@ -40,19 +40,19 @@
     transition: all 0.5s ease-in-out 0.1s;
 }
 
-.tab:hover{
+.opcao_rede:hover{
     width: 450px;
 }
 
-.tab:hover .social a:before{
+.opcao_rede:hover .social a:before{
     margin-left: -100px;
 }
 
-.tab:hover .social a:after{
+.opcao_rede:hover .social a:after{
     margin-left: -5px;
 }
 
-.tab .content{
+.opcao_rede .content{
     background-color: white;
     width: 360px;
     height: 200px;
@@ -61,12 +61,12 @@
     position: relative;
 }
 
-.tab .content h1{
+.opcao_rede .content h1{
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.tab .content p{
+.opcao_rede .content p{
     font-size: 0.85rem;
     line-height: 1.4rem;
     padding-right: 30px;
@@ -91,14 +91,6 @@
     padding-top: 80px;
     margin-left: 85px;
     color:white;
-}
-
-.youtube a::before, .youtube a::after{
-    content: '\f213';
-}
-
-.youtube a::after{
-    background-color: #ff0000;
 }
 
 .twitter a::before, .twitter a::after{
